@@ -1,0 +1,277 @@
+[
+  {
+    "english": "Fumiya lives in Hawaii.",
+    "japanese": "文也はハワイに住んでいます。",
+    "category": "fact_person"
+  },
+  {
+    "english": "She's twenty-one years old.",
+    "japanese": "彼女は21歳です。",
+    "category": "fact_thing"
+  },
+  {
+    "english": "She works as a music teacher.",
+    "japanese": "彼女は音楽の先生として働いています。",
+    "category": "fact_person"
+  },
+  {
+    "english": "Riko can draw comics very well.",
+    "japanese": "理子はとてもじょうずにマンガをかくことができます。",
+    "category": "fact_person"
+  },
+  {
+    "english": "I study a lot about animals.",
+    "japanese": "私は動物についてたくさん勉強します。",
+    "category": "fact_person"
+  },
+  {
+    "english": "We sometimes enjoy cooking.",
+    "japanese": "私たちはときどき料理をして楽しみます。",
+    "category": "fact_person"
+  },
+  {
+    "english": "I enjoy his class very much.",
+    "japanese": "私は彼の授業をとても楽しみます。",
+    "category": "fact_person"
+  },
+  {
+    "english": "Does Fumiya live near a beach?",
+    "japanese": "文也はビーチの近くに住んでいますか。",
+    "category": "question"
+  },
+  {
+    "english": "Yes, he does. / No, he does not.",
+    "japanese": "はい、住んでいます。/ いいえ、住んでいません。",
+    "category": "reply"
+  },
+  {
+    "english": "Do you have any questions?",
+    "japanese": "あなたには何か質問がありますか。",
+    "category": "question"
+  },
+  {
+    "english": "Japan has many beautiful mountains.",
+    "japanese": "日本にはたくさんの美しい山があります。",
+    "category": "fact_thing"
+  },
+  {
+    "english": "I do not go to the beach every day.",
+    "japanese": "私は毎日は浜に行きません。",
+    "category": "want_not"
+  },
+  {
+    "english": "What do you do on weekends?",
+    "japanese": "あなたは(毎)週末に何をしますか。",
+    "category": "question"
+  },
+  {
+    "english": "Maria does not speak Japanese.",
+    "japanese": "マリアは日本語を話しません。",
+    "category": "want_not"
+  },
+  {
+    "english": "Cafe Jasmine is very popular.",
+    "japanese": "カフェジャスミンはとても人気があります。",
+    "category": "fact_thing"
+  },
+  {
+    "english": "Mr. Ito is the owner of the shop.",
+    "japanese": "伊藤さんはその店の所有者です。",
+    "category": "fact_thing"
+  },
+  {
+    "english": "Our teacher knows a lot about animals.",
+    "japanese": "私たちの先生は動物についてたくさん知っています。",
+    "category": "fact_person"
+  },
+  {
+    "english": "I want to eat a fried egg.",
+    "japanese": "私は目玉焼きを食べたいです。",
+    "category": "want_not"
+  },
+  {
+    "english": "The clock is on top of the piano.",
+    "japanese": "その置き時計はピアノの上にあります。",
+    "category": "fact_thing"
+  },
+  {
+    "english": "Tell me about Hawaii.",
+    "japanese": "私にハワイについて教えてください。",
+    "category": "request"
+  },
+  {
+    "english": "Why don't you join us?",
+    "japanese": "あなたも参加しませんか。",
+    "category": "request"
+  },
+  {
+    "english": "That is Jun. Do you know him?",
+    "japanese": "あちらは純です。あなたは彼を知っていますか。",
+    "category": "question"
+  },
+  {
+    "english": "That is Anna. Do you know her?",
+    "japanese": "あちらはアナです。あなたは彼女を知っていますか。",
+    "category": "question"
+  },
+  {
+    "english": "I want to say hi to her.",
+    "japanese": "私は彼女に声をかけたいです。",
+    "category": "want_not"
+  },
+  {
+    "english": "How's everything, Tom? — Fine.",
+    "japanese": "調子はどうですか、トム。― けっこうです。",
+    "category": "question"
+  },
+  {
+    "english": "That's a poster for the festival.",
+    "japanese": "あれはその祭りのためのポスターです。",
+    "category": "fact_thing"
+  },
+  {
+    "english": "He is a performer from the U.K.",
+    "japanese": "彼は英国出身の演技者です。",
+    "category": "fact_thing"
+  },
+  {
+    "english": "I want to see my grandfather.",
+    "japanese": "私は私の祖父に会いたいです。",
+    "category": "want_not"
+  },
+  {
+    "english": "Why don't we play tennis together?",
+    "japanese": "いっしょにテニスをしませんか。",
+    "category": "request"
+  },
+  {
+    "english": "Whose ticket is this?",
+    "japanese": "これはだれのチケットですか。",
+    "category": "question"
+  },
+  {
+    "english": "It is mine.",
+    "japanese": "それは私のものです。",
+    "category": "reply"
+  },
+  {
+    "english": "The game starts in ten minutes.",
+    "japanese": "その試合は10分後に始まります。",
+    "category": "fact_thing"
+  },
+  {
+    "english": "I can't wait!",
+    "japanese": "私は待ちきれません。",
+    "category": "reply"
+  },
+  {
+    "english": "Thanks.",
+    "japanese": "ありがとう。",
+    "category": "reply"
+  },
+  {
+    "english": "Be careful with your book.",
+    "japanese": "あなたの本のあつかいに気をつけなさい。",
+    "category": "request"
+  },
+  {
+    "english": "Come here.",
+    "japanese": "ここに来て。",
+    "category": "request"
+  },
+  {
+    "english": "Sado has a long history.",
+    "japanese": "茶道には長い歴史があります。",
+    "category": "fact_thing"
+  },
+  {
+    "english": "The movie is still popular.",
+    "japanese": "その映画は今でも人気があります。",
+    "category": "fact_thing"
+  },
+  {
+    "english": "How old is kabuki?",
+    "japanese": "歌舞伎は作られてからどれくらいですか。",
+    "category": "question"
+  },
+  {
+    "english": "Which do you speak, English or Japanese? — I speak English.",
+    "japanese": "あなたは英語と日本語のどちらを話しますか。― 私は英語を話します。",
+    "category": "question"
+  },
+  {
+    "english": "I have some questions for you.",
+    "japanese": "私はあなたに対しての質問がいくつかあります。",
+    "category": "fact_person"
+  },
+  {
+    "english": "I play two roles in my show.",
+    "japanese": "私は自分のショーで2つの役を演じます。",
+    "category": "fact_person"
+  },
+  {
+    "english": "We enjoy different sports.",
+    "japanese": "私たちはいろいろなスポーツを楽しみます。",
+    "category": "fact_person"
+  },
+  {
+    "english": "The room has only two chairs.",
+    "japanese": "その部屋にはいすがただ2脚だけあります。",
+    "category": "fact_thing"
+  },
+  {
+    "english": "Can I open the window?",
+    "japanese": "窓を開けてもいいかな。",
+    "category": "question"
+  },
+  {
+    "english": "Sure.",
+    "japanese": "もちろん。",
+    "category": "reply"
+  },
+  {
+    "english": "Can you help me?",
+    "japanese": "手伝ってくれるかな。",
+    "category": "question"
+  },
+  {
+    "english": "All right.",
+    "japanese": "わかった。",
+    "category": "reply"
+  },
+  {
+    "english": "No problem.",
+    "japanese": "いいですよ。[もちろん。]",
+    "category": "reply"
+  },
+  {
+    "english": "I'm a little hungry.",
+    "japanese": "私は少し空腹です。",
+    "category": "fact_person"
+  },
+  {
+    "english": "Please turn on the TV.",
+    "japanese": "テレビをつけてください。",
+    "category": "request"
+  },
+  {
+    "english": "I help him with his homework.",
+    "japanese": "私は彼の宿題を手伝います。",
+    "category": "fact_person"
+  },
+  {
+    "english": "Just a moment.",
+    "japanese": "ちょっと待って。",
+    "category": "reply"
+  },
+  {
+    "english": "Please turn off the TV.",
+    "japanese": "テレビを消してください。",
+    "category": "request"
+  },
+  {
+    "english": "Sorry, but I'm busy now.",
+    "japanese": "ごめんなさい、私は今忙しいのです。",
+    "category": "reply"
+  }
+]

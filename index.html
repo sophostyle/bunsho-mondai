@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>英単語4択クイズ</title>
+<title>英文4択クイズ</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,9 +16,9 @@
   <!-- ========== スタート画面 ========== -->
   <section id="screen-start" class="screen">
     <div class="card start-card">
-      <p class="eyebrow">VOCABULARY QUIZ</p>
-      <h1 class="title">英単語4択クイズ</h1>
-      <p class="lead">英単語を見て、正しい日本語の意味を4択から選ぼう。</p>
+      <p class="eyebrow">SENTENCE QUIZ</p>
+      <h1 class="title">英文4択クイズ</h1>
+      <p class="lead">英文を読んで、正しい日本語訳を4択から選ぼう。</p>
 
       <div id="data-status" class="data-status" aria-live="polite"></div>
 
@@ -36,7 +36,7 @@
       <button type="button" id="start-btn" class="btn btn-primary btn-large" disabled>
         スタート
       </button>
-      <p class="hint" id="start-hint">単語データを読み込み中…</p>
+      <p class="hint" id="start-hint">英文データを読み込み中…</p>
     </div>
   </section>
 
@@ -53,7 +53,7 @@
 
     <div class="card quiz-card">
       <div class="word-area">
-        <p class="word-label">この単語の意味は？</p>
+        <p class="word-label">この英文の意味は？</p>
         <h2 id="word-display" class="word-display">&nbsp;</h2>
         <button type="button" id="speak-btn" class="speak-btn" aria-label="発音をもう一度聞く">
           <span class="speak-icon" aria-hidden="true">🔊</span>
@@ -62,7 +62,7 @@
         <p id="speech-note" class="speech-note hidden">この端末では音声読み上げが利用できません。</p>
       </div>
 
-      <p class="choices-label">日本語の意味は？</p>
+      <p class="choices-label">日本語訳は？</p>
       <div id="choices" class="choices" role="group" aria-label="選択肢"></div>
 
       <div id="feedback" class="feedback hidden" role="status" aria-live="polite"></div>
@@ -84,7 +84,7 @@
       </div>
 
       <div id="wrong-section" class="wrong-section hidden">
-        <h3 class="wrong-title">間違えた単語</h3>
+        <h3 class="wrong-title">間違えた英文</h3>
         <ul id="wrong-list" class="wrong-list"></ul>
       </div>
 

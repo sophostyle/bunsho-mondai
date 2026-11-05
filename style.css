@@ -553,3 +553,28 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+
+/* ===== 文章版の調整 ===== */
+.word-display {
+  font-size: clamp(22px, 6vw, 30px);
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.word-display.is-long {
+  font-size: clamp(19px, 5vw, 24px);
+}
+.choice-btn {
+  text-align: left;
+  align-items: flex-start;
+  line-height: 1.5;
+  font-size: 15px;
+}
+.choice-text {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+.wrong-list li { line-height: 1.5; }
+.wrong-list { max-height: 320px; }
+.wrong-list li { flex-direction: column; align-items: flex-start; gap: 2px; }
+.wrong-list .w-ja { text-align: left; }

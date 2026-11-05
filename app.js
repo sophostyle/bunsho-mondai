@@ -1,5 +1,5 @@
 /* =========================================================
-   英単語4択クイズ - app.js
+   英文4択クイズ - app.js
    構成:
      1. 状態 (state)
      2. データ読み込み
@@ -76,7 +76,7 @@
       state.allWords = valid;
 
       if (valid.length < 2) {
-        showDataError("問題データが不足しています（2語以上必要です）。words.json を確認してください。");
+        showDataError("問題データが不足しています（2文以上必要です）。words.json を確認してください。");
         return;
       }
 
@@ -84,7 +84,7 @@
         el.dataStatus.textContent = `注意: words.json 内に読み込めない項目が ${data.length - valid.length} 件ありました。`;
       }
 
-      el.startHint.textContent = `全 ${valid.length} 語を読み込みました。`;
+      el.startHint.textContent = `全 ${valid.length} 文を読み込みました。`;
       el.startBtn.disabled = false;
     } catch (err) {
       console.error(err);
@@ -162,6 +162,7 @@
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = "en-US";
+      utterance.rate = 0.9;
       window.speechSynthesis.speak(utterance);
     } catch (err) {
       console.warn("音声再生に失敗しました:", err);
@@ -203,6 +204,7 @@
 
     // 単語表示
     el.wordDisplay.textContent = word.english;
+    el.wordDisplay.classList.toggle("is-long", word.english.length > 28);
 
     // 音声非対応の場合は注記を出し、手動ボタンも無効化
     el.speechNote.classList.toggle("hidden", SPEECH_SUPPORTED);
@@ -322,7 +324,7 @@
     state.wrongWords = [];
 
     if (state.sessionWords.length === 0) {
-      showDataError("出題できる単語がありません。");
+      showDataError("出題できる英文がありません。");
       showScreen("start");
       return;
     }
